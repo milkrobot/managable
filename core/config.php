@@ -42,6 +42,4 @@ define('MANAGABLE_STORAGE_TYPE','local');
 define('MANAGABLE_STORAGE_LOCAL_ROOT',FALSE); //if left false, MANAGABLE_ROOT/media/ will be used
 define('MANAGABLE_STORAGE_URL_ROOT',FALSE); //if left false, a relative path like /managable/media/44.jpg will be used
 
-
-
 ?>
