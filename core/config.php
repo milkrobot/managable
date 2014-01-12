@@ -34,6 +34,7 @@ define('MANAGABLE_DATABASE_NAME','database_name');
 define('MANAGABLE_DATABASE_USER','database_user');
 define('MANAGABLE_DATABASE_PASS','database_pass');
 
+
 //file storage type
 //currently supported types are "local", "rackspace", and "amazons3"
 define('MANAGABLE_STORAGE_TYPE','local');
@@ -41,5 +42,6 @@ define('MANAGABLE_STORAGE_TYPE','local');
 //options for local storage
 define('MANAGABLE_STORAGE_LOCAL_ROOT',FALSE); //if left false, MANAGABLE_ROOT/media/ will be used
 define('MANAGABLE_STORAGE_URL_ROOT',FALSE); //if left false, a relative path like /managable/media/44.jpg will be used
+
 
 ?>
